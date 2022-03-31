@@ -65,4 +65,22 @@ if (vPetro > v) {
     else {
         console.log('Petras i pamoka nepaveluos')
     }
-}
+};
+
+console.log('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx');
+console.log('Desimtas uzdavinys - lengvesnis variantas');
+
+v1 = 8;
+m1 = 29;
+m2 = 100;
+v = 9;
+m = 10;
+
+mPetro = (v1 * 60) + m1 + m2;
+mPamoku = (v * 60) + m;
+
+if (mPetro > mPamoku) {
+    console.log('Petras i pamoka paveluos');
+} else {
+    console.log('Petras i pamoka nepaveluos')
+};
