@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "hw": "nodemon ./03-30/mini-uzduotys.js",
+    "hw": "nodemon ./03-31/mini-uzduotys.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
