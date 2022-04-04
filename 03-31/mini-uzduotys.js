@@ -21,10 +21,10 @@ for (let index = 51; index <= 52; index++) {
 console.log(suma);
 
 console.log('xxxxxxxxxxxxxxxxxxxxxxxxxx');
-console.log('Antra uzduotis"');
+console.log('Antra uzduotis');
 
 let zodis = 'sula'; console.log(zodis);
-let sidoz = ""
+let sidoz = "";
 for (let index = zodis.length; index > 0; index--) {
     sidoz += zodis[index-1];
     console.log(sidoz);
@@ -62,3 +62,20 @@ dalinasi7 = 0;
 arDalinasi(0, 11);
 arDalinasi(8, 31);
 arDalinasi(-18, 18);
+
+function liekana(nuo, iki, daliklis) {
+    let count = 0;
+    for (let index = nuo; index <= iki; index++) {
+        if (index % daliklis === 0) {
+            count++;
+        }
+    }
+    return `Skaičių intervale tarp ${nuo} ir ${iki}, besidalijančių be liekanos iš ${daliklis} yra ${count} vienetai.`
+}
+
+console.log(liekana(0, 11, 3));
+console.log(liekana(0, 11, 5));
+console.log(liekana(0, 11, 7));
+console.log(liekana(8, 31, 3));
+console.log(liekana(8, 31, 5));
+console.log(liekana(8, 31, 7));
