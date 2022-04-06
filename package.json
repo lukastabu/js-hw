@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "hw": "nodemon ./04-05/Funkcijos-mini-II.js",
+    "hw": "nodemon ./04-06/while-mini.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
